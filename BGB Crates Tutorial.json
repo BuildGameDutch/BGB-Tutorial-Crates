@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 223,
+    "build": 224,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -14,7 +14,7 @@
     "orientation": "landscape",
     "packageName": "com.example.gamename",
     "pixelsRounding": false,
-    "projectUuid": "fa3f702b-6850-4726-a025-dbbed1ce909a",
+    "projectUuid": "bc505c12-e63d-4b82-b13c-1eb6df9f7f9b",
     "scaleMode": "linear",
     "sizeOnStartupMode": "",
     "templateSlug": "starting-3D-platformer",
@@ -212,38 +212,6 @@
         "kind": "image",
         "metadata": "",
         "name": "2.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "3.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "Logo Pattern 1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Logo Pattern 1.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "4.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "Logo Pattern 2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Logo Pattern 2.png",
         "smoothed": true,
         "userAdded": false
       }
@@ -669,10 +637,10 @@
           "keepRatio": true,
           "layer": "",
           "name": "Crate1",
-          "persistentUuid": "f3b74269-1e8e-4375-9127-6388e7dfdc33",
+          "persistentUuid": "073c111d-d846-477f-bfde-c6828e0440b7",
           "width": 0,
           "x": 896,
-          "y": 128,
+          "y": 192,
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
@@ -685,10 +653,10 @@
           "keepRatio": true,
           "layer": "",
           "name": "Crate2",
-          "persistentUuid": "4ff11acb-86e8-41d9-9784-f532aa372725",
+          "persistentUuid": "3b1c0531-12a1-448f-8e63-35a8ba7f123d",
           "width": 0,
           "x": 320,
-          "y": 128,
+          "y": 192,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -701,10 +669,10 @@
           "keepRatio": true,
           "layer": "",
           "name": "Crate3",
-          "persistentUuid": "2b8b5343-3dd6-4cb0-8712-2cb18573ef67",
+          "persistentUuid": "0844ea84-3392-41be-981a-20fbd7184c2b",
           "width": 0,
-          "x": 924,
-          "y": 92,
+          "x": 896,
+          "y": 192,
           "z": 100,
           "zOrder": 15,
           "numberProperties": [],
@@ -1323,7 +1291,7 @@
           ],
           "content": {
             "width": 100,
-            "height": 100,
+            "height": 50,
             "depth": 100,
             "enableTextureTransparency": false,
             "facesOrientation": "Y",
@@ -1379,9 +1347,9 @@
             }
           ],
           "content": {
-            "width": 100,
-            "height": 100,
-            "depth": 100,
+            "width": 50,
+            "height": 50,
+            "depth": 50,
             "enableTextureTransparency": false,
             "facesOrientation": "Y",
             "frontFaceResourceName": "2.png",
@@ -1441,13 +1409,13 @@
             "depth": 100,
             "enableTextureTransparency": false,
             "facesOrientation": "Y",
-            "frontFaceResourceName": "3.png",
-            "backFaceResourceName": "3.png",
+            "frontFaceResourceName": "2.png",
+            "backFaceResourceName": "2.png",
             "backFaceUpThroughWhichAxisRotation": "X",
-            "leftFaceResourceName": "3.png",
-            "rightFaceResourceName": "3.png",
-            "topFaceResourceName": "3.png",
-            "bottomFaceResourceName": "3.png",
+            "leftFaceResourceName": "1.png",
+            "rightFaceResourceName": "1.png",
+            "topFaceResourceName": "1.png",
+            "bottomFaceResourceName": "2.png",
             "frontFaceVisible": true,
             "backFaceVisible": true,
             "leftFaceVisible": true,
@@ -1480,15 +1448,6 @@
             "objectName": "Obstacle"
           },
           {
-            "objectName": "Crate1"
-          },
-          {
-            "objectName": "Crate2"
-          },
-          {
-            "objectName": "Crate3"
-          },
-          {
             "objectName": "Ground"
           },
           {
@@ -1507,6 +1466,15 @@
                 "objectName": "JumpButton"
               }
             ]
+          },
+          {
+            "objectName": "Crate1"
+          },
+          {
+            "objectName": "Crate2"
+          },
+          {
+            "objectName": "Crate3"
           }
         ]
       },
